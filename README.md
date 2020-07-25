@@ -1,2 +1,2 @@
 # data_analysis
-This repository contains python codes related to data analysis.
+This repository contains some useful python codes related to data analysis.
