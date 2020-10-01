@@ -1,0 +1,3 @@
+Hi Rich, as I mentioned earlier I was able to connect the slave agent to test jenkins, by executing below command in dev-content-staging(test-slave), 
+java -jar swarm-client-3.23.jar -master 'https://staging-kmaran-dev.aws.athenahealth.com/jenkins/' -username kmaran -password 'TOKEN_HERE' -name kmaran_swarm_slave -webSocket -disableClientsUniqueId
+For triggerring this swarm-client, we thought of creating a generic API token in '\jenkins-master-init\anet_deploy\templates\init.groovy.d\003_credentials.groovy', could you please let us know if that's the right way.
